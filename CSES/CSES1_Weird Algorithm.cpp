@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-#define int long long
+#define int long long 
+// got TLE because of not using it as long long since for large values of n - 3*n+1 will be > INT_MAX
 
 signed main()
 {
@@ -17,4 +18,5 @@ signed main()
         }
     }
     return 0;
+
 }
